@@ -1,0 +1,5 @@
+domain: crossplane.io
+layout:
+- go.kubebuilder.io/v3
+repo: github.com/VariableExp0rt/powerbroker
+version: "3"

@@ -1,0 +1,40 @@
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.xpkg
+*.conf
+bin
+testbin/*
+
+cluster/*
+examples/*
+package/*
+manifests/compiled/*
+manifests/inventory/targets/*
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+_output
+
+# Kubernetes Generated files - skip generated files, except for vendored files
+
+!vendor/**/zz_generated.*
+
+# editor and IDE paraphernalia
+.vscode
+.cache
+.work
+.idea
+*.swp
+*.swo
+*~
+
+# Other files
+manifests/components/*/__pycache__
